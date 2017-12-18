@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/side_nav_bar"
+    tools:context="charge.prueba1.RegistroActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro de Una Estación"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="25dp"
+
+            />
+
+
+
+        <EditText
+            android:id="@+id/et_nombreestacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="#fff"
+            android:ems="15"
+            android:layout_gravity="center"
+            android:hint="Nombre"
+            android:textColor="#000000"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_price1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Precio Charge4Less"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="15"
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/et_price2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Precio Red Eléctrica"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="15"
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/cargadores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Número de Cargadores"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="15"
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/energia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Energía Disponible en la estación"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="15"
+            android:layout_gravity="center"
+            android:background="#fff"
+            android:textColor="#000000"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/et_longitud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Longitud de la Estación"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="15"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="#fff"
+            android:inputType="none" />
+
+        <EditText
+            android:id="@+id/et_latitud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Latitud de la Estación"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="15"
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:inputType="none" />
+
+
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Añadir"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
+

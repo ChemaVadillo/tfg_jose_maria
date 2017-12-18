@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/side_nav_bar"
+    tools:context="charge.prueba1.RegistroActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de Usuario"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+     />
+
+
+
+        <EditText
+            android:id="@+id/et_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="#fff"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:hint="Nombre"
+            android:textColor="#000000"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Usuario"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="10"
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/userEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="10"
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/userdni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="DNI"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:background="#fff"
+            android:textColor="#000000"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:background="#fff"
+            android:password="true"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="10"
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/pais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Modelo del coche"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="10"
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/et_edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Matrícula del coche"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:ems="10"
+            android:background="#fff"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:inputType="text" />
+
+
+        <Button
+            android:id="@+id/btn_aceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceptar"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/icono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="2dip"
+        android:src="@drawable/ic_estacion"
+        android:contentDescription=""/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_estacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_precio_charge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio Charg4Less"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tv_precio_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio Red Eléctrica"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tv_cargadores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Número Cargadores"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tv_energia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Energía Disponible"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tv_distancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Energía Disponible"
+            android:textColor="#000000"/>
+
+    
+</LinearLayout>
+</LinearLayout>
